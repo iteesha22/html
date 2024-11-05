@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <form action="/action.php"> <hr> <br>  
+            <style>
+                div {
+                  background-color: white;
+                  width:98%;
+                  border:10px solid red;
+                  padding: 10px;
+                  margin:0px;
+                }
+                </style>
+                </head>
+                <body>
+                <div><h1 style="text-align: center;"> REGISTRATION FORM</h1>  </div> <br>
+                <h2 style="text-align: center;">  Fill all the particulars given below to participate.
+                </h2>
+<!--email adress-->
+                <p> <b> ENTER YOUR EMAIL </b> </p>
+                <input type="email" id="email" placeholder="abc001@gmail.com" required> <br><br>
+ <!--name-->  
+             <p> <b>ENTER YOUR NAME</b> </p>
+  <!--first name-->  
+                     <input type="text" id="name" placeholder="FIRST NAME" required maxlength="75" title="only letters and spaces allowed" > <br> <br>
+                      <input type="text" placeholder="LAST NAME" title="only letters and spaces allowed" > <br> <br>
+  <!--birth date--> 
+             <p> <b>ENTER YOUR DATE OF BIRTH</b> </p>
+             <input type="date" placeholder="DD/MM/YY" required> <br> <br>
+   <!--gender-->         
+                         <p> <b> CHOOSE YOUR GENDER</b> </p>
+      <label for="male">
+  <input type="radio"value="male" name="gender" id="male"required> MALE </label>  <br> <br>
+      <label for="female">
+  <input type="radio"value="female" name="gender" id="female"required> FEMALE</label>  <br> <br>
+     <label for="others">
+  <input type="radio"value="others" name="gender"id="others" required> OTHERS</label>  <br> <br>
+  <!--contact no--> 
+                        <p> <b>CONTACT NUMBER</b> </p>
+     <label for="phone">
+    <input type="tel" id="phone" name="phone" placeholder="0000XXXXXX" required pattern="[0-9]{10}" title="10 digits required"><br><br>
+    </label> 
+<!--STATE-->  
+                        <p> <b> STATE</b> </p>
+<label for="state">
+    <input type="text" id="state" placeholder="STATE NAME" required> </label> <br> <br>
+<!--CITY-->  
+                        <p> <b> CITY</b> </p>
+<label for="city">
+    <input type="text" id="city" placeholder="CITY NAME" required> </label> <br> <br>
+    <!--ADDRESS-->  
+                <p> <b> RESIDENCE</b> </p>
+<label for="address">
+    <textarea id="address"name="address"rows="4" cols="50" placeholder="ENTER YOUR CURRENT ADDRESS" required></textarea><br><br>
+</label>
+
+<button>SUBMIT</button>
+
+
+       <br> <hr> </form>
+    </form>
+    </form>
+    
+</body>
+</html>
